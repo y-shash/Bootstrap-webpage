@@ -1,0 +1,396 @@
+.product-holder {
+    position: relative;
+    display: block;
+}
+
+    #IMG{
+        right: 10%;
+        top: 10%;
+        position: absolute;
+        margin-top: -25px;
+        margin-right: -25px;
+    }
+
+    #togg{
+        right: 50%;
+        top: 50%;
+        position: absolute;
+        margin-top: -25px;
+        margin-right: -25px;
+    }
+
+
+    #laptop{
+        left: 0%;
+        top: 40%;
+        position: absolute;
+        margin-top: -25px;
+        margin-right: -25px;
+    }
+
+    #para{
+    right: 10%;
+	top: 50%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    color: black;
+    font-size: 12px;
+    }
+
+
+    #part{
+        right: 0%;
+        top: -20%;
+        position: absolute;
+        margin-top: -25px;
+        margin-right: -25px;
+    }
+
+    .text-over-img { 
+	right: 10%;
+	top: 40%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    color: white;
+    font-size: 22px;
+}
+
+#eks{
+
+    right: 10%;
+	top: 80%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    border-radius: 22px;
+    color: black;
+    background-color: white;
+    border-width: 0;
+    font-size: 8px;
+
+}
+
+#paras1{
+    right: 30%;
+	top: 20%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 10px;
+    color: white;
+}
+
+#paras2{
+    right: 30%;
+	top: 35%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 9px;
+    color: rgb(151, 151, 151);
+}
+
+#paras3{
+    right: 30%;
+	top: 50%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 9px;
+    color: rgb(151, 151, 151);
+}
+
+#paras4{
+    right: 30%;
+	top: 65%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 9px;
+    color: rgb(151, 151, 151);
+}
+
+#paras5{
+    right: 30%;
+	top: 90%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 9px;
+    color: white;
+}
+
+
+#param1{
+    right: 50%;
+	top: 20%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 10px;
+    color: white;
+}
+
+#param2{
+    right: 50%;
+	top: 35%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 9px;
+    color: rgb(151, 151, 151);
+}
+
+#param3{
+    right: 50%;
+	top: 50%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 9px;
+    color: rgb(151, 151, 151);
+}
+
+#param4{
+    right: 50%;
+	top: 65%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 9px;
+    color: rgb(151, 151, 151);
+}
+
+#parae1{
+    right: 70%;
+	top: 20%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -right;
+    font-size: 10px;
+    color: white;
+}
+
+#parae2{
+    right: 70%;
+	top: 35%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 9px;
+    color: rgb(151, 151, 151);
+}
+
+#parae3{
+    right: 70%;
+	top: 50%; 
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -25px;
+    font-size: 9px;
+    color: rgb(151, 151, 151);
+}
+
+
+#readmore{
+
+right: 25%;
+top: 80%; 
+position: absolute;
+margin-top: -25px;
+margin-right: -25px;
+border-radius: 22px;
+color: black;
+background-color: white;
+border-width: 0;
+font-size: 8px;
+
+}
+
+
+    #part2{
+        right: 0%;
+        top: 40%;
+        position: absolute;
+        margin-top: -25px;
+        margin-right: -25px;
+    }
+
+
+    /* DEMO GENERAL ============================== */
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position:absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.3s;
+  
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+/* DEMO 2 ============================== */
+.hover-2 .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+}
+
+.hover-2-title {
+  position: absolute;
+  top: 80%;
+  right: 3;
+  text-align: center;
+  width: 50%;
+  z-index: 99;
+  transition: all 0.3s;
+  font-size: 15px;
+}
+
+.hover-2-description {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  right: 0;
+  text-align: center;
+  z-index: 99;
+  transition: all 0.3s;
+  font-size: 8px;
+}
+
+.hover-2:hover .hover-2-title {
+  transform: translateY(-1.5rem);
+}
+
+.hover-2:hover .hover-2-description {
+  bottom: 0.5rem;
+  opacity: 1;
+}
+
+.hover-2:hover .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+}
+
+@media (max-width: 700px) {
+
+    #landing{
+        width: 300px;
+        height: 200px;
+    }
+
+    #IMG{
+        right: 20%;
+        width: 40px;
+        height: 40px;
+        padding-top: 10px;  
+    }
+
+    #partners2{
+        width: 200px;
+        height: 100px;
+    }
+
+    #firstcol, #seccol, #thrcol{
+
+        max-width: 300px;
+        
+    }
+
+    #recentwork, #footer{ 
+        max-width: 325px;
+        margin-top: 10px; 
+    }
+
+    #laptop{
+        margin-top: 70px;
+        width: 250px;
+        height: 100px;
+        align-items: center;
+    }
+
+    
+
+    .text-over-img { 
+    font-size: 12px;
+}
+
+#para{
+    font-size: 6px;
+}
+    
+#readmore{
+
+right: 40%;
+top: 70%; 
+margin-top: -20px;
+font-size: 5px;
+
+}
+
+#eks{
+top: 70%; 
+margin-top: -20px;
+font-size: 5px;
+}
+
+#paras1{
+    font-size: 8px;
+    
+}
+
+#paras2, #paras3, #paras4, #paras5{
+    font-size: 6px;
+}
+
+
+
+#param1{
+    font-size: 8px;
+}
+
+#param2, #param3, #param4{
+    font-size: 6px;
+}
+
+#parae1{
+    right: 75%;
+    font-size: 8px;
+}
+
+#parae2, #parae3{
+    right: 75%;
+	font-size: 6px;
+}
+
+    #partnersrow{
+        height: 80px;
+        margin-bottom: 0px ;
+    
+    }
+
+    #partnerscol{
+        margin: 0px;
+    }
+
+
+}
